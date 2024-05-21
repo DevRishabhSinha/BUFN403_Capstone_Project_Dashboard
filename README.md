@@ -1,7 +1,3 @@
-Here's the README file with instructions to set up and run your Flask application locally:
-
----
-
 # Stock Data Viewer
 
 This project is a Stock Data Viewer built with Flask for the backend and HTML/CSS/JavaScript for the frontend. It allows users to input a stock ticker symbol and retrieve related data from a CSV file. The data is displayed in a structured format along with various visualizations.
@@ -48,20 +44,24 @@ BUFN403_Capstone_UI_Prod
     cd BUFN403_Capstone_UI_Prod
     ```
 
-2. **Set Up Virtual Environment**
+2. **Download the CSV File**
+
+    Download the CSV file from [this Google Drive link](https://drive.google.com/file/d/1Kqpi_ihIbcDym24caprNe6tvtDwiEoCV/view?usp=sharing) and place it in the project directory as `final_dataframe.csv`.
+
+3. **Set Up Virtual Environment**
 
     ```sh
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. **Install Backend Dependencies**
+4. **Install Backend Dependencies**
 
     ```sh
     pip install -r requirements.txt
     ```
 
-4. **Set Up Frontend (if required)**
+5. **Set Up Frontend (if required)**
 
     If your project uses Node.js for frontend dependencies, install them:
 
@@ -71,13 +71,13 @@ BUFN403_Capstone_UI_Prod
     cd ..
     ```
 
-5. **Run the Application Locally**
+6. **Run the Application Locally**
 
     ```sh
     python app.py
     ```
 
-6. **Access the Application**
+7. **Access the Application**
 
     Open your web browser and navigate to `http://127.0.0.1:5000/`.
 
@@ -131,3 +131,5 @@ BUFN403_Capstone_UI_Prod
     ```sh
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
+
+---
